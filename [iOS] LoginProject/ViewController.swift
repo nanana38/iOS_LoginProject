@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController{
+final class ViewController: UIViewController{
     
     // MARK: - 이메일 입력(텍스트뷰)
     private lazy var emailTextFieldView: UIView = {
@@ -159,7 +159,6 @@ class ViewController: UIViewController{
         passwordResetButton.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
-        
         NSLayoutConstraint.activate([
             emailInfoLabel.leadingAnchor.constraint(equalTo: emailTextFieldView.leadingAnchor, constant: 8),
             emailInfoLabel.trailingAnchor.constraint(equalTo: emailTextFieldView.trailingAnchor, constant: 8),
@@ -221,8 +220,6 @@ class ViewController: UIViewController{
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
-
 }
 
 extension ViewController: UITextFieldDelegate {
@@ -288,4 +285,3 @@ extension ViewController: UITextFieldDelegate {
         
         }
     }
-
