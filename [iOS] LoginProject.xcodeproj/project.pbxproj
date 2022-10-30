@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A3C6CCB290D426C001E4DE8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3C6CCA290D426C001E4DE8 /* LoginView.swift */; };
 		9AA05A68290A725900485C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA05A67290A725900485C14 /* AppDelegate.swift */; };
 		9AA05A6A290A725900485C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA05A69290A725900485C14 /* SceneDelegate.swift */; };
 		9AA05A6C290A725900485C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA05A6B290A725900485C14 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A3C6CCA290D426C001E4DE8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9AA05A64290A725900485C14 /* [iOS] LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[iOS] LoginProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA05A67290A725900485C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AA05A69290A725900485C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A3C6CC8290D4210001E4DE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C6CCA290D426C001E4DE8 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A3C6CC9290D4215001E4DE8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AA05A6B290A725900485C14 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		9AA05A5B290A725900485C14 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +76,8 @@
 			children = (
 				9AA05A67290A725900485C14 /* AppDelegate.swift */,
 				9AA05A69290A725900485C14 /* SceneDelegate.swift */,
-				9AA05A6B290A725900485C14 /* ViewController.swift */,
+				9A3C6CC8290D4210001E4DE8 /* Views */,
+				9A3C6CC9290D4215001E4DE8 /* Controllers */,
 				9AA05A6D290A725900485C14 /* Main.storyboard */,
 				9AA05A70290A725E00485C14 /* Assets.xcassets */,
 				9AA05A72290A725E00485C14 /* LaunchScreen.storyboard */,
@@ -140,6 +159,7 @@
 			files = (
 				9AA05A6C290A725900485C14 /* ViewController.swift in Sources */,
 				9AA05A68290A725900485C14 /* AppDelegate.swift in Sources */,
+				9A3C6CCB290D426C001E4DE8 /* LoginView.swift in Sources */,
 				9AA05A6A290A725900485C14 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
